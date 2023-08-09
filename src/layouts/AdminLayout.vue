@@ -1,0 +1,25 @@
+<template>
+    <div>
+        <!-- Here you can place elements common to the whole application -->
+        <NavBarAdmin/>
+        <router-view/>
+    </div>
+</template>
+
+<script setup>
+import NavBarAdmin from "../componentesAdmin/NavBarAdmin.vue"
+
+
+</script>
+
+<style lang="scss" scoped>
+/* Webpixels CSS */
+/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
+/* URL: https://github.com/webpixels/css */
+
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+</style>
